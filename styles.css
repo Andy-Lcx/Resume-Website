@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.terminal-bar {
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    color: #fff;
+}
+
+.typing-effect {
+    margin-left: 10px;
+    font-family: 'Fira Code', monospace;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #b2dfdb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project, .job {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sql-hl {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #00796b;
+    cursor: pointer;
+}
+
+pre, code {
+    font-family: 'Fira Code', monospace;
+    color: #333;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #39FF14;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+} 
